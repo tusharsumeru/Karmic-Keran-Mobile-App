@@ -1,0 +1,90 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background glow for atmosphere -->
+  <circle cx="100" cy="100" r="88" fill="url(#jupiterGlow)" />
+  
+  <!-- Main planet body -->
+  <circle cx="100" cy="100" r="85" fill="url(#jupiterGradient)" />
+  
+  <!-- Cloud bands with detailed gradients and shapes -->
+  <g>
+    <!-- Dark bands -->
+    <path d="M15,95 Q50,93 100,95 Q150,97 185,94 L185,75 Q150,77 100,75 Q50,73 15,76 Z" fill="url(#darkBandGradient)" />
+    <path d="M15,130 Q60,132 100,131 Q140,130 185,132 L185,110 Q140,108 100,109 Q60,110 15,108 Z" fill="url(#darkBandGradient)" />
+    <path d="M15,60 Q70,58 120,59 Q170,60 185,58 L185,50 Q170,51 120,50 Q70,49 15,51 Z" fill="url(#darkBandGradient2)" opacity="0.8" />
+    <path d="M15,150 Q70,152 120,151 Q170,150 185,152 L185,140 Q170,139 120,140 Q70,141 15,139 Z" fill="url(#darkBandGradient2)" opacity="0.8" />
+    
+    <!-- Light bands -->
+    <path d="M15,75 Q50,74 100,76 Q150,78 185,75 L185,60 Q150,62 100,60 Q50,58 15,61 Z" fill="url(#lightBandGradient)" opacity="0.7" />
+    <path d="M15,110 Q60,109 100,108 Q140,107 185,109 L185,95 Q140,94 100,95 Q60,96 15,94 Z" fill="url(#lightBandGradient)" opacity="0.7" />
+    <path d="M15,140 Q70,139 120,138 Q170,137 185,139 L185,130 Q170,129 120,130 Q70,131 15,129 Z" fill="url(#lightBandGradient)" opacity="0.7" />
+    <path d="M15,50 Q70,48 120,49 Q170,50 185,48 L185,35 Q170,36 120,35 Q70,34 15,36 Z" fill="url(#lightBandGradient)" opacity="0.7" />
+    <path d="M15,175 Q70,174 120,173 Q170,172 185,174 L185,150 Q170,151 120,150 Q70,149 15,151 Z" fill="url(#lightBandGradient)" opacity="0.7" />
+  </g>
+  
+  <!-- Detailed Great Red Spot -->
+  <g>
+    <ellipse cx="145" cy="82" rx="22" ry="13" fill="url(#spotOuterGradient)" />
+    <ellipse cx="145" cy="82" rx="18" ry="10" fill="url(#spotInnerGradient)" />
+    <!-- Swirl details within spot -->
+    <path d="M135,78 Q145,75 155,79 Q158,82 155,85 Q145,89 135,85 Q132,82 135,78 Z" fill="#a03c2b" opacity="0.5" />
+  </g>
+  
+  <!-- Smaller storms and cloud features -->
+  <g opacity="0.5">
+    <circle cx="65" cy="120" r="8" fill="#d9b785" />
+    <circle cx="45" cy="85" r="6" fill="#d9b785" />
+    <circle cx="110" cy="143" r="5" fill="#d9b785" />
+    <circle cx="80" cy="55" r="7" fill="#d9b785" />
+  </g>
+  
+  <!-- Subtle cloud swirls and details -->
+  <g opacity="0.4">
+    <path d="M40,85 Q50,80 60,85 Q65,90 60,95 Q50,100 40,95 Q35,90 40,85 Z" fill="#ba8c55" />
+    <path d="M120,115 Q130,110 140,115 Q145,120 140,125 Q130,130 120,125 Q115,120 120,115 Z" fill="#ba8c55" />
+    <path d="M70,55 Q75,50 85,53 Q90,57 85,60 Q75,63 70,60 Q65,57 70,55 Z" fill="#ba8c55" />
+    <path d="M100,145 Q105,143 115,145 Q120,148 115,150 Q105,152 100,150 Q95,148 100,145 Z" fill="#ba8c55" />
+  </g>
+  
+  <!-- Definitions for gradients -->
+  <defs>
+    <radialGradient id="jupiterGradient" cx="50%" cy="50%" r="85%" fx="35%" fy="35%">
+      <stop offset="0%" stop-color="#f9edd6" />
+      <stop offset="30%" stop-color="#f2dcb1" />
+      <stop offset="60%" stop-color="#e6c587" />
+      <stop offset="100%" stop-color="#c99b60" />
+    </radialGradient>
+    
+    <radialGradient id="jupiterGlow" cx="50%" cy="50%" r="100%">
+      <stop offset="85%" stop-color="#e6c58750" />
+      <stop offset="100%" stop-color="#e6c58700" />
+    </radialGradient>
+    
+    <linearGradient id="darkBandGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#cf9055" />
+      <stop offset="50%" stop-color="#b27a45" />
+      <stop offset="100%" stop-color="#cf9055" />
+    </linearGradient>
+    
+    <linearGradient id="darkBandGradient2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ba8747" />
+      <stop offset="50%" stop-color="#a07339" />
+      <stop offset="100%" stop-color="#ba8747" />
+    </linearGradient>
+    
+    <linearGradient id="lightBandGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f4d6a4" />
+      <stop offset="50%" stop-color="#e9c78e" />
+      <stop offset="100%" stop-color="#f4d6a4" />
+    </linearGradient>
+    
+    <radialGradient id="spotOuterGradient" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#cb6b5a" />
+      <stop offset="100%" stop-color="#a03c2b" />
+    </radialGradient>
+    
+    <radialGradient id="spotInnerGradient" cx="45%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#d85f4d" />
+      <stop offset="100%" stop-color="#b74c33" />
+    </radialGradient>
+  </defs>
+</svg>

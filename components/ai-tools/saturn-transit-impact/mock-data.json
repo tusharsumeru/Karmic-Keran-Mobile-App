@@ -1,0 +1,177 @@
+{
+    "status": 200,
+    "data": {
+        "data": {
+            "dateOfBirth": "12/1/1998",
+            "timeOfBirth": "6:30 PM",
+            "city": "Los Angeles",
+            "state": "California",
+            "country": "United States",
+            "latitude": 34.0536909,
+            "longitude": -118.242766,
+            "timezone": -7,
+            "siderealAscendant": {
+                "sign": "Gemini",
+                "degrees": 12,
+                "minutes": 34,
+                "nakshatra": "Ardra",
+                "pada": 2
+            },
+            "planets": [
+                {
+                    "name": "Sun",
+                    "sign": "Scorpio",
+                    "nakshatra": "Anuradha",
+                    "degree": 15,
+                    "minute": 54,
+                    "pada": 4,
+                    "status": "[D]",
+                    "statusName": "Direct",
+                    "exalted": true,
+                    "debilited": false
+                },
+                {
+                    "name": "Moon",
+                    "sign": "Aries",
+                    "nakshatra": "Bharani",
+                    "degree": 24,
+                    "minute": 18,
+                    "pada": 4,
+                    "status": "[D]",
+                    "statusName": "Direct",
+                    "exalted": false,
+                    "debilited": false
+                },
+                {
+                    "name": "Mercury",
+                    "sign": "Scorpio",
+                    "nakshatra": "Anuradha",
+                    "degree": 15,
+                    "minute": 5,
+                    "pada": 4,
+                    "status": "[C] [R]",
+                    "statusName": "Combust, Retrograde",
+                    "exalted": true,
+                    "debilited": false
+                },
+                {
+                    "name": "Venus",
+                    "sign": "Scorpio",
+                    "nakshatra": "Jyeshtha",
+                    "degree": 24,
+                    "minute": 3,
+                    "pada": 3,
+                    "status": "[C] [D]",
+                    "statusName": "Combust, Direct",
+                    "exalted": true,
+                    "debilited": false
+                },
+                {
+                    "name": "Mars",
+                    "sign": "Virgo",
+                    "nakshatra": "Uttara Phalguni",
+                    "degree": 8,
+                    "minute": 43,
+                    "pada": 4,
+                    "status": "[D]",
+                    "statusName": "Direct",
+                    "exalted": true,
+                    "debilited": false
+                },
+                {
+                    "name": "Jupiter",
+                    "sign": "Aquarius",
+                    "nakshatra": "Purva Bhadrapada",
+                    "degree": 24,
+                    "minute": 55,
+                    "pada": 2,
+                    "status": "[D]",
+                    "statusName": "Direct",
+                    "exalted": false,
+                    "debilited": false
+                },
+                {
+                    "name": "Saturn",
+                    "sign": "Aries",
+                    "nakshatra": "Ashwini",
+                    "degree": 3,
+                    "minute": 37,
+                    "pada": 2,
+                    "status": "[R]",
+                    "statusName": "Retrograde",
+                    "exalted": true,
+                    "debilited": false
+                },
+                {
+                    "name": "Uranus",
+                    "sign": "Capricorn",
+                    "nakshatra": "Shravana",
+                    "degree": 15,
+                    "minute": 47,
+                    "pada": 2,
+                    "status": "[D]",
+                    "statusName": "Direct",
+                    "exalted": true,
+                    "debilited": false
+                },
+                {
+                    "name": "Neptune",
+                    "sign": "Capricorn",
+                    "nakshatra": "Uttara Ashadha",
+                    "degree": 6,
+                    "minute": 15,
+                    "pada": 3,
+                    "status": "[D]",
+                    "statusName": "Direct",
+                    "exalted": false,
+                    "debilited": false
+                },
+                {
+                    "name": "Pluto",
+                    "sign": "Scorpio",
+                    "nakshatra": "Anuradha",
+                    "degree": 14,
+                    "minute": 9,
+                    "pada": 4,
+                    "status": "[D]",
+                    "statusName": "Direct",
+                    "exalted": true,
+                    "debilited": false
+                },
+                {
+                    "name": "Rahu",
+                    "sign": "Leo",
+                    "nakshatra": "Magha",
+                    "degree": 2,
+                    "minute": 9,
+                    "pada": 1,
+                    "status": "[R]",
+                    "statusName": "Retrograde",
+                    "exalted": true,
+                    "debilited": false
+                },
+                {
+                    "name": "Ketu",
+                    "sign": "Aquarius",
+                    "nakshatra": "Dhanishta",
+                    "degree": 2,
+                    "minute": 8,
+                    "pada": 3,
+                    "status": "[R]",
+                    "statusName": "Retrograde",
+                    "exalted": true,
+                    "debilited": false
+                }
+            ]
+        },
+        "_id": "68131123bcf6f368e7b24a9d",
+        "createdAt": "2025-05-01T06:13:55.559Z",
+        "updatedAt": "2025-05-01T06:13:55.559Z",
+        "__v": 0
+    },
+    "message": "Calculation Processed successfully",
+    "error": null
+}
+
+
+

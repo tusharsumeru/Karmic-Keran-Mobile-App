@@ -1,0 +1,41 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Saturn planet body -->
+  <circle cx="100" cy="100" r="65" fill="url(#saturnGradient)" />
+  
+  <!-- Rings behind the planet -->
+  <ellipse cx="100" cy="100" rx="95" ry="25" fill="url(#ringsGradientBack)" opacity="0.7" transform="rotate(-15 100 100)" />
+  
+  <!-- Planet body (again to overlay rings) -->
+  <circle cx="100" cy="100" r="65" fill="url(#saturnGradient)" />
+  
+  <!-- Rings in front of the planet -->
+  <path d="M100,75 a95,25 0 0,1 95,25 a95,25 0 0,1 -95,25 a95,25 0 0,1 -95,-25 a95,25 0 0,1 95,-25 Z" fill="url(#ringsGradientFront)" opacity="0.7" transform="rotate(-15 100 100)" />
+  
+  <defs>
+    <radialGradient id="saturnGradient" cx="50%" cy="50%" r="80%" fx="30%" fy="30%">
+      <stop offset="0%" stop-color="#f5e0b0" />
+      <stop offset="50%" stop-color="#e1c17d" />
+      <stop offset="100%" stop-color="#bea265" />
+    </radialGradient>
+    <linearGradient id="ringsGradientBack" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(212,184,134,0)" />
+      <stop offset="20%" stop-color="rgba(212,184,134,0.5)" />
+      <stop offset="50%" stop-color="rgba(212,184,134,0.8)" />
+      <stop offset="80%" stop-color="rgba(212,184,134,0.5)" />
+      <stop offset="100%" stop-color="rgba(212,184,134,0)" />
+    </linearGradient>
+    <linearGradient id="ringsGradientFront" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(212,184,134,0)" />
+      <stop offset="20%" stop-color="rgba(212,184,134,0.5)" />
+      <stop offset="50%" stop-color="rgba(212,184,134,0.8)" />
+      <stop offset="80%" stop-color="rgba(212,184,134,0.5)" />
+      <stop offset="100%" stop-color="rgba(212,184,134,0)" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Bands -->
+  <g opacity="0.5">
+    <path d="M35,85 L165,85 L165,75 L35,75 Z" fill="#d4b886" />
+    <path d="M35,115 L165,115 L165,105 L35,105 Z" fill="#d4b886" />
+  </g>
+</svg>

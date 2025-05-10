@@ -1,0 +1,102 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Subtle atmospheric haze -->
+  <circle cx="100" cy="100" r="88" fill="url(#marsGlow)" />
+  
+  <!-- Main planet body -->
+  <circle cx="100" cy="100" r="85" fill="url(#marsGradient)" />
+  
+  <!-- Surface texture overlay -->
+  <circle cx="100" cy="100" r="85" fill="url(#surfaceTexture)" opacity="0.3" />
+  
+  <!-- Major geographical features -->
+  <g opacity="0.7">
+    <!-- Valles Marineris canyon system -->
+    <path d="M50,95 Q70,90 90,95 Q110,100 130,95 Q140,97 150,95" stroke="#9c4b2f" stroke-width="5" fill="none" opacity="0.7" />
+    
+    <!-- Olympus Mons volcano -->
+    <circle cx="70" cy="60" r="15" fill="url(#mountainGradient)" />
+    <circle cx="70" cy="60" r="10" fill="url(#volcanoGradient)" opacity="0.6" />
+    <circle cx="70" cy="60" r="5" fill="#742e10" opacity="0.6" />
+    
+    <!-- Tharsis volcanic plateau -->
+    <circle cx="130" cy="85" r="20" fill="url(#mountainGradient)" opacity="0.8" />
+    <circle cx="130" cy="85" r="12" fill="url(#volcanoGradient)" opacity="0.5" />
+    
+    <!-- Hellas Planitia impact basin -->
+    <ellipse cx="90" cy="120" rx="25" ry="15" fill="url(#craterGradient)" />
+  </g>
+  
+  <!-- Smaller craters and surface details -->
+  <g>
+    <circle cx="40" cy="50" r="8" fill="url(#craterGradient)" opacity="0.6" />
+    <circle cx="150" cy="60" r="6" fill="url(#craterGradient)" opacity="0.5" />
+    <circle cx="160" cy="110" r="10" fill="url(#craterGradient)" opacity="0.7" />
+    <circle cx="60" cy="140" r="7" fill="url(#craterGradient)" opacity="0.5" />
+    <circle cx="120" cy="150" r="9" fill="url(#craterGradient)" opacity="0.6" />
+  </g>
+  
+  <!-- Dust storms and atmospheric effects -->
+  <g opacity="0.2">
+    <path d="M30,90 Q50,80 70,85 Q80,95 70,105 Q50,110 30,100 Q25,95 30,90 Z" fill="#d4a286" />
+    <path d="M130,40 Q150,35 160,45 Q165,55 155,65 Q140,70 125,60 Q120,50 130,40 Z" fill="#d4a286" />
+  </g>
+  
+  <!-- Polar caps with shadows -->
+  <g>
+    <ellipse cx="100" cy="28" rx="25" ry="12" fill="url(#polarCapGradient)" opacity="0.9" />
+    <ellipse cx="100" cy="30" rx="22" ry="9" fill="#ffffff" opacity="0.8" />
+    
+    <ellipse cx="100" cy="172" rx="25" ry="12" fill="url(#polarCapGradient)" opacity="0.9" />
+    <ellipse cx="100" cy="170" rx="22" ry="9" fill="#ffffff" opacity="0.8" />
+  </g>
+  
+  <!-- Subtle highlights on edge -->
+  <circle cx="100" cy="100" r="85" fill="none" stroke="url(#edgeHighlight)" stroke-width="1.5" opacity="0.3" />
+  
+  <!-- Definitions for gradients -->
+  <defs>
+    <radialGradient id="marsGradient" cx="40%" cy="40%" r="85%" fx="30%" fy="30%">
+      <stop offset="0%" stop-color="#f1bfa0" />
+      <stop offset="50%" stop-color="#dd8f6c" />
+      <stop offset="100%" stop-color="#ce5e3c" />
+    </radialGradient>
+    
+    <radialGradient id="marsGlow" cx="50%" cy="50%" r="100%">
+      <stop offset="85%" stop-color="#dd8f6c30" />
+      <stop offset="100%" stop-color="#dd8f6c00" />
+    </radialGradient>
+    
+    <radialGradient id="surfaceTexture" cx="50%" cy="50%" r="100%">
+      <stop offset="0%" stop-color="#e07d5300" />
+      <stop offset="60%" stop-color="#bb5c3120" />
+      <stop offset="100%" stop-color="#9c4b2f40" />
+    </radialGradient>
+    
+    <radialGradient id="mountainGradient" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#dd8f6c" />
+      <stop offset="70%" stop-color="#c47050" />
+      <stop offset="100%" stop-color="#9c4b2f" />
+    </radialGradient>
+    
+    <radialGradient id="volcanoGradient" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#9c4b2f" />
+      <stop offset="100%" stop-color="#742e10" />
+    </radialGradient>
+    
+    <radialGradient id="craterGradient" cx="35%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#ba7a5c" />
+      <stop offset="100%" stop-color="#9c4b2f" />
+    </radialGradient>
+    
+    <linearGradient id="polarCapGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f0f0f0" />
+    </linearGradient>
+    
+    <linearGradient id="edgeHighlight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f1bfa060" />
+      <stop offset="50%" stop-color="#f1bfa020" />
+      <stop offset="100%" stop-color="#f1bfa060" />
+    </linearGradient>
+  </defs>
+</svg>

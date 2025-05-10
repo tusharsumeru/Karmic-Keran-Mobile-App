@@ -1,0 +1,19 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="100" cy="100" r="85" fill="url(#uranusGradient)" />
+  <defs>
+    <radialGradient id="uranusGradient" cx="50%" cy="50%" r="80%" fx="30%" fy="30%">
+      <stop offset="0%" stop-color="#c6e9f4" />
+      <stop offset="50%" stop-color="#9fd1e0" />
+      <stop offset="100%" stop-color="#78b8c9" />
+    </radialGradient>
+  </defs>
+  <!-- Cloud bands -->
+  <g opacity="0.3">
+    <path d="M15,90 L185,90 L185,85 L15,85 Z" fill="#83c0d7" />
+    <path d="M15,110 L185,110 L185,105 L15,105 Z" fill="#83c0d7" />
+    <path d="M15,70 L185,70 L185,67 L15,67 Z" fill="#83c0d7" />
+    <path d="M15,130 L185,130 L185,127 L15,127 Z" fill="#83c0d7" />
+  </g>
+  <!-- Tilted rings (very faint) -->
+  <ellipse cx="100" cy="100" rx="95" ry="5" fill="#e1eef2" opacity="0.3" transform="rotate(80 100 100)" />
+</svg>

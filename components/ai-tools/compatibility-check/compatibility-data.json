@@ -1,0 +1,194 @@
+{
+    "Aries": [
+      {
+        "incompatibleWith": "Cancer",
+        "reasonTitle": "Emotionally sensitive vs confrontational",
+        "reasonDescription": "Aries is impulsive and direct, often acting before thinking. Cancer is emotionally intuitive and sensitive, requiring emotional safety in relationships. This combination can lead to frequent misunderstandings, where emotional needs clash with blunt expression.",
+        "remedieForAries": "Practice patience and learn to acknowledge Cancer's perspective. Slow down communication and show consistent emotional support to reduce misunderstandings.",
+        "remedieForCancer": "Create space for Aries' personality by setting clear boundaries without being overly critical. Encourage open dialogue while maintaining calm responses."
+      },
+      {
+        "incompatibleWith": "Virgo",
+        "reasonTitle": "Overthinking vs Impulsiveness",
+        "reasonDescription": "Aries tends to act on instinct and seeks quick results, while Virgo prefers careful analysis and attention to detail. The mismatch in pacing and approach can create friction, especially when decisions need to be made collaboratively.",
+        "remedieForAries": "Learn to value Virgo's thoughtful planning and slow down to accommodate their need for structure.",
+        "remedieForVirgo": "Allow space for Aries' spontaneity and focus less on perfection to maintain harmony."
+      },
+      {
+        "incompatibleWith": "Capricorn",
+        "reasonTitle": "Reckless vs rigid",
+        "reasonDescription": "Aries prioritizes action and autonomy, whereas Capricorn values structure, long-term planning, and control. This pairing often experiences tension between impulsive spontaneity and methodical discipline.",
+        "remedieForAries": "Respect Capricorn's need for order and collaborate on structured plans.",
+        "remedieForCapricorn": "Embrace flexibility and accept occasional risk to foster cooperation with Aries."
+      }
+    ],
+    "Taurus": [
+      {
+        "incompatibleWith": "Sagittarius",
+        "reasonTitle": "Too stable vs too wild",
+        "reasonDescription": "Taurus values routine, stability, and long-term comfort, while Sagittarius thrives on freedom, variety, and exploration. These differing lifestyle preferences often lead to conflict in goals and daily rhythms.",
+        "remedieForTaurus": "Allow more flexibility and support adventurous experiences to accommodate Sagittarius' spontaneity.",
+        "remedieForSagittarius": "Recognize Taurus' need for stability and practice grounding rituals to maintain balance."
+      },
+      {
+        "incompatibleWith": "Aquarius",
+        "reasonTitle": "Practical vs idealistic",
+        "reasonDescription": "Taurus is grounded and values tangible results, whereas Aquarius is focused on innovation, abstraction, and change. This fundamental difference can make it difficult to find common ground in decision-making and values.",
+        "remedieForTaurus": "Be open to new ideas and avoid dismissing unconventional approaches from Aquarius.",
+        "remedieForAquarius": "Respect Taurus' need for tradition and express innovation in a practical, stepwise manner."
+      }
+    ],
+    "Gemini": [
+      {
+        "incompatibleWith": "Pisces",
+        "reasonTitle": "Distraction meets delusion",
+        "reasonDescription": "Gemini is intellectually curious and thrives on variety, while Pisces is emotionally deep and intuitive. Communication styles may not align, as Gemini values rationality and Pisces operates from emotional perception.",
+        "remedieForGemini": "Develop deeper emotional sensitivity and patience when communicating with Pisces.",
+        "remedieForPisces": "Work on grounding thoughts and clarify emotional expression to avoid confusion with Gemini."
+      },
+      {
+        "incompatibleWith": "Scorpio",
+        "reasonTitle": "Light vs dark, surface vs depth",
+        "reasonDescription": "Gemini prefers light, flexible interactions, whereas Scorpio seeks emotional intensity and depth. The contrast in emotional depth can lead to misunderstandings and mistrust.",
+        "remedieForGemini": "Commit to deeper levels of emotional connection and avoid superficial responses.",
+        "remedieForScorpio": "Lighten up interactions and reduce intensity to create space for Gemini's free-flowing nature."
+      }
+    ],
+    "Cancer": [
+      {
+        "incompatibleWith": "Aries",
+        "reasonTitle": "Nurturing vs assertive",
+        "reasonDescription": "Cancer is nurturing and emotionally driven, whereas Aries is assertive and action-oriented. The emotional sensitivity of Cancer may clash with the bold nature of Aries.",
+        "remedieForCancer": "Develop thicker emotional boundaries and learn to interpret Aries' actions without personalizing them.",
+        "remedieForAries": "Be more mindful of tone and consider emotional impact when expressing yourself around Cancer."
+      },
+      {
+        "incompatibleWith": "Aquarius",
+        "reasonTitle": "Emotion vs detachment",
+        "reasonDescription": "Cancer seeks emotional security and closeness, while Aquarius maintains an intellectual and often detached approach to relationships. These differences can result in unmet emotional expectations.",
+        "remedieForCancer": "Respect Aquarius' independence and avoid emotional over-dependency to foster understanding.",
+        "remedieForAquarius": "Practice emotional responsiveness and be present in nurturing moments to reassure Cancer."
+      }
+    ],
+    "Leo": [
+      {
+        "incompatibleWith": "Scorpio",
+        "reasonTitle": "Both want to dominate",
+        "reasonDescription": "Both Leo and Scorpio possess strong personalities and a desire to lead. Power struggles may arise due to their mutual need for control and recognition.",
+        "remedieForLeo": "Work on humility and be open to shared leadership roles to ease tension.",
+        "remedieForScorpio": "Ease control and allow more lighthearted interaction to balance Leo's expressive nature."
+      },
+      {
+        "incompatibleWith": "Capricorn",
+        "reasonTitle": "King vs CEO",
+        "reasonDescription": "Leo expresses leadership through charisma and creativity, while Capricorn leads with discipline and structure. These differing approaches can lead to competition rather than cooperation.",
+        "remedieForLeo": "Honor Capricorn's need for results and tone down ego-driven expectations in collaborative settings.",
+        "remedieForCapricorn": "Express appreciation for Leo's creativity and learn to celebrate shared wins."
+      }
+    ],
+    "Virgo": [
+      {
+        "incompatibleWith": "Sagittarius",
+        "reasonTitle": "Detail vs big picture",
+        "reasonDescription": "Virgo focuses on details and practical matters, while Sagittarius is oriented towards ideals and future possibilities. Misalignment in values and priorities may lead to misunderstandings.",
+        "remedieForVirgo": "Step back to see broader perspectives and avoid micromanagement.",
+        "remedieForSagittarius": "Learn to respect structure and routines to foster reliability with Virgo."
+      },
+      {
+        "incompatibleWith": "Pisces",
+        "reasonTitle": "Fantasy vs facts",
+        "reasonDescription": "Virgo relies on analysis and practicality, while Pisces depends on intuition and emotion. Their different approaches to life can result in confusion and lack of mutual understanding.",
+        "remedieForVirgo": "Soften analytical approach and validate Pisces' intuitive insights.",
+        "remedieForPisces": "Work on grounding emotions and being more organized when discussing plans."
+      }
+    ],
+    "Libra": [
+      {
+        "incompatibleWith": "Capricorn",
+        "reasonTitle": "Harmony vs achievement",
+        "reasonDescription": "Libra seeks balance and social harmony, while Capricorn focuses on achievement and status. Their different priorities can create tension in relationship dynamics.",
+        "remedieForLibra": "Understand Capricorn's drive for success and find ways to support their goals.",
+        "remedieForCapricorn": "Balance work focus with relationship needs and appreciate Libra's diplomatic nature."
+      }
+    ],
+    "Scorpio": [
+      {
+        "incompatibleWith": "Gemini",
+        "reasonTitle": "Depth vs variety",
+        "reasonDescription": "Scorpio seeks deep emotional connections, while Gemini prefers variety and intellectual stimulation. Their different approaches to intimacy can create misunderstandings.",
+        "remedieForScorpio": "Allow for lighter moments and respect Gemini's need for mental variety.",
+        "remedieForGemini": "Develop emotional depth and show consistency in important moments."
+      },
+      {
+        "incompatibleWith": "Leo",
+        "reasonTitle": "Power struggle",
+        "reasonDescription": "Both signs have strong personalities and desire for control, leading to potential power struggles.",
+        "remedieForScorpio": "Practice sharing control and appreciate Leo's natural leadership qualities.",
+        "remedieForLeo": "Respect Scorpio's depth and share the spotlight more often."
+      }
+    ],
+    "Sagittarius": [
+      {
+        "incompatibleWith": "Taurus",
+        "reasonTitle": "Adventure vs stability",
+        "reasonDescription": "Sagittarius loves adventure and change, while Taurus prefers stability and routine. This fundamental difference can create tension in lifestyle choices.",
+        "remedieForSagittarius": "Appreciate the value of stability and create some routine in your life.",
+        "remedieForTaurus": "Be more open to new experiences and allow for some spontaneity."
+      },
+      {
+        "incompatibleWith": "Virgo",
+        "reasonTitle": "Freedom vs structure",
+        "reasonDescription": "Sagittarius values freedom and exploration, while Virgo prefers structure and organization. Their different approaches can lead to frustration.",
+        "remedieForSagittarius": "Respect Virgo's need for order and try to be more reliable.",
+        "remedieForVirgo": "Allow for more flexibility and adventure in plans."
+      }
+    ],
+    "Capricorn": [
+      {
+        "incompatibleWith": "Aries",
+        "reasonTitle": "Structure vs spontaneity",
+        "reasonDescription": "Capricorn values planning and structure, while Aries prefers spontaneity and immediate action. This can create friction in decision-making.",
+        "remedieForCapricorn": "Be more open to spontaneous opportunities and quick decisions.",
+        "remedieForAries": "Appreciate the value of planning and show more patience."
+      },
+      {
+        "incompatibleWith": "Leo",
+        "reasonTitle": "Work vs recognition",
+        "reasonDescription": "Capricorn focuses on practical achievements, while Leo seeks recognition and admiration. Their different approaches to success can create tension.",
+        "remedieForCapricorn": "Show more appreciation for Leo's creative contributions.",
+        "remedieForLeo": "Respect Capricorn's practical approach and work ethic."
+      }
+    ],
+    "Aquarius": [
+      {
+        "incompatibleWith": "Taurus",
+        "reasonTitle": "Innovation vs tradition",
+        "reasonDescription": "Aquarius loves innovation and change, while Taurus prefers tradition and stability. This fundamental difference can create tension in approaches to life.",
+        "remedieForAquarius": "Respect the value of tradition and stability in certain areas.",
+        "remedieForTaurus": "Be more open to new ideas and technological changes."
+      },
+      {
+        "incompatibleWith": "Cancer",
+        "reasonTitle": "Logic vs emotion",
+        "reasonDescription": "Aquarius approaches life intellectually, while Cancer is deeply emotional. This difference in processing can lead to communication challenges.",
+        "remedieForAquarius": "Develop more emotional awareness and sensitivity.",
+        "remedieForCancer": "Try to be more objective in emotional situations."
+      }
+    ],
+    "Pisces": [
+      {
+        "incompatibleWith": "Gemini",
+        "reasonTitle": "Feeling vs thinking",
+        "reasonDescription": "Pisces processes through feelings, while Gemini approaches life intellectually. This fundamental difference can create communication challenges.",
+        "remedieForPisces": "Work on expressing feelings more clearly and logically.",
+        "remedieForGemini": "Develop more emotional sensitivity and patience."
+      },
+      {
+        "incompatibleWith": "Virgo",
+        "reasonTitle": "Dreams vs reality",
+        "reasonDescription": "Pisces lives in a world of dreams and possibilities, while Virgo focuses on practical reality. This can create misunderstandings and frustration.",
+        "remedieForPisces": "Work on grounding ideas in practical reality.",
+        "remedieForVirgo": "Allow for more imagination and creativity in approaches."
+      }
+    ]
+} 

@@ -1,0 +1,77 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background glow for atmosphere -->
+  <circle cx="100" cy="100" r="88" fill="url(#neptuneGlow)" />
+  
+  <!-- Main planet body -->
+  <circle cx="100" cy="100" r="85" fill="url(#neptuneGradient)" />
+  
+  <!-- Cloud bands -->
+  <g opacity="0.6">
+    <path d="M15,95 Q50,91 100,94 Q150,97 185,93 L185,83 Q150,86 100,83 Q50,80 15,85 Z" fill="url(#bandGradient1)" />
+    <path d="M15,115 Q60,118 100,116 Q140,114 185,118 L185,103 Q140,99 100,101 Q60,103 15,100 Z" fill="url(#bandGradient2)" />
+    <path d="M15,70 Q70,68 120,71 Q170,73 185,70 L185,65 Q170,67 120,65 Q70,63 15,65 Z" fill="url(#bandGradient3)" opacity="0.4" />
+    <path d="M15,140 Q70,142 120,139 Q170,137 185,140 L185,135 Q170,133 120,135 Q70,137 15,135 Z" fill="url(#bandGradient1)" opacity="0.4" />
+  </g>
+  
+  <!-- Great dark spot with internal detail -->
+  <g opacity="0.9">
+    <ellipse cx="120" cy="70" rx="20" ry="15" fill="url(#darkSpotGradient)" />
+    <path d="M110,65 Q120,60 130,65 Q136,70 130,75 Q120,80 110,75 Q104,70 110,65 Z" fill="#153760" opacity="0.5" />
+  </g>
+  
+  <!-- Cloud swirls and streaks -->
+  <g opacity="0.6">
+    <path d="M70,50 Q85,60 95,50 Q105,40 120,50" stroke="white" stroke-width="2" fill="none" />
+    <path d="M60,140 Q75,150 90,140 Q105,130 125,140" stroke="white" stroke-width="2" fill="none" />
+    <path d="M40,120 Q50,115 60,120 Q70,125 80,120" stroke="white" stroke-width="1.5" fill="none" />
+    <path d="M140,110 Q150,105 160,110 Q170,115 180,110" stroke="white" stroke-width="1.5" fill="none" />
+    <path d="M30,80 Q40,75 50,80 Q60,85 70,80" stroke="white" stroke-width="1.5" fill="none" />
+  </g>
+  
+  <!-- Subtle atmospheric highlights -->
+  <circle cx="70" cy="65" r="30" fill="url(#highlightGradient)" opacity="0.2" />
+  <circle cx="130" cy="135" r="25" fill="url(#highlightGradient)" opacity="0.15" />
+  
+  <!-- Definitions for gradients -->
+  <defs>
+    <radialGradient id="neptuneGradient" cx="50%" cy="50%" r="85%" fx="35%" fy="35%">
+      <stop offset="0%" stop-color="#5da3e0" />
+      <stop offset="40%" stop-color="#4785c6" />
+      <stop offset="70%" stop-color="#3470b2" />
+      <stop offset="100%" stop-color="#2766a7" />
+    </radialGradient>
+    
+    <radialGradient id="neptuneGlow" cx="50%" cy="50%" r="100%">
+      <stop offset="85%" stop-color="#5492d150" />
+      <stop offset="100%" stop-color="#5492d100" />
+    </radialGradient>
+    
+    <linearGradient id="bandGradient1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2c5d97" />
+      <stop offset="50%" stop-color="#1e4880" />
+      <stop offset="100%" stop-color="#2c5d97" />
+    </linearGradient>
+    
+    <linearGradient id="bandGradient2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e4880" />
+      <stop offset="50%" stop-color="#2c5d97" />
+      <stop offset="100%" stop-color="#1e4880" />
+    </linearGradient>
+    
+    <linearGradient id="bandGradient3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2554a0" />
+      <stop offset="50%" stop-color="#1a406f" />
+      <stop offset="100%" stop-color="#2554a0" />
+    </linearGradient>
+    
+    <radialGradient id="darkSpotGradient" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#1e4880" />
+      <stop offset="100%" stop-color="#153760" />
+    </radialGradient>
+    
+    <radialGradient id="highlightGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7ab5e7" />
+      <stop offset="100%" stop-color="#7ab5e700" />
+    </radialGradient>
+  </defs>
+</svg>

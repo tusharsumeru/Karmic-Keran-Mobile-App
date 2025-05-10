@@ -1,0 +1,58 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sun glow outer layer -->
+  <circle cx="100" cy="100" r="95" fill="url(#sunOuterGlow)" />
+  
+  <!-- Sun body -->
+  <circle cx="100" cy="100" r="75" fill="url(#sunGradient)" />
+  
+  <!-- Sun rays -->
+  <g>
+    <!-- Long rays -->
+    <line x1="100" y1="10" x2="100" y2="35" stroke="rgba(255,211,77,0.8)" stroke-width="4" />
+    <line x1="100" y1="165" x2="100" y2="190" stroke="rgba(255,211,77,0.8)" stroke-width="4" />
+    <line x1="10" y1="100" x2="35" y2="100" stroke="rgba(255,211,77,0.8)" stroke-width="4" />
+    <line x1="165" y1="100" x2="190" y2="100" stroke="rgba(255,211,77,0.8)" stroke-width="4" />
+    
+    <!-- Diagonal long rays -->
+    <line x1="30" y1="30" x2="48" y2="48" stroke="rgba(255,211,77,0.8)" stroke-width="4" />
+    <line x1="30" y1="170" x2="48" y2="152" stroke="rgba(255,211,77,0.8)" stroke-width="4" />
+    <line x1="170" y1="30" x2="152" y2="48" stroke="rgba(255,211,77,0.8)" stroke-width="4" />
+    <line x1="170" y1="170" x2="152" y2="152" stroke="rgba(255,211,77,0.8)" stroke-width="4" />
+    
+    <!-- Medium rays -->
+    <line x1="100" y1="20" x2="100" y2="40" stroke="rgba(255,211,77,0.6)" stroke-width="3" transform="rotate(22.5 100 100)" />
+    <line x1="100" y1="160" x2="100" y2="180" stroke="rgba(255,211,77,0.6)" stroke-width="3" transform="rotate(22.5 100 100)" />
+    <line x1="20" y1="100" x2="40" y2="100" stroke="rgba(255,211,77,0.6)" stroke-width="3" transform="rotate(22.5 100 100)" />
+    <line x1="160" y1="100" x2="180" y2="100" stroke="rgba(255,211,77,0.6)" stroke-width="3" transform="rotate(22.5 100 100)" />
+    
+    <line x1="100" y1="20" x2="100" y2="40" stroke="rgba(255,211,77,0.6)" stroke-width="3" transform="rotate(45 100 100)" />
+    <line x1="100" y1="160" x2="100" y2="180" stroke="rgba(255,211,77,0.6)" stroke-width="3" transform="rotate(45 100 100)" />
+    <line x1="20" y1="100" x2="40" y2="100" stroke="rgba(255,211,77,0.6)" stroke-width="3" transform="rotate(45 100 100)" />
+    <line x1="160" y1="100" x2="180" y2="100" stroke="rgba(255,211,77,0.6)" stroke-width="3" transform="rotate(45 100 100)" />
+    
+    <line x1="100" y1="20" x2="100" y2="40" stroke="rgba(255,211,77,0.6)" stroke-width="3" transform="rotate(67.5 100 100)" />
+    <line x1="100" y1="160" x2="100" y2="180" stroke="rgba(255,211,77,0.6)" stroke-width="3" transform="rotate(67.5 100 100)" />
+    <line x1="20" y1="100" x2="40" y2="100" stroke="rgba(255,211,77,0.6)" stroke-width="3" transform="rotate(67.5 100 100)" />
+    <line x1="160" y1="100" x2="180" y2="100" stroke="rgba(255,211,77,0.6)" stroke-width="3" transform="rotate(67.5 100 100)" />
+  </g>
+  
+  <!-- Solar flares -->
+  <path d="M70,50 Q75,40 90,45 Q100,55 85,60 Q75,65 70,50 Z" fill="#ffb833" opacity="0.8" />
+  <path d="M130,70 Q145,65 150,75 Q145,90 135,85 Q125,80 130,70 Z" fill="#ffb833" opacity="0.8" />
+  <path d="M60,110 Q50,105 55,95 Q65,90 70,100 Q65,110 60,110 Z" fill="#ffb833" opacity="0.8" />
+  <path d="M120,130 Q115,145 105,140 Q100,130 110,125 Q120,120 120,130 Z" fill="#ffb833" opacity="0.8" />
+  
+  <!-- Definitions for gradients -->
+  <defs>
+    <radialGradient id="sunGradient" cx="50%" cy="50%" r="70%" fx="40%" fy="40%">
+      <stop offset="0%" stop-color="#ffec80" />
+      <stop offset="50%" stop-color="#ffd21f" />
+      <stop offset="100%" stop-color="#ffb833" />
+    </radialGradient>
+    <radialGradient id="sunOuterGlow" cx="50%" cy="50%" r="100%">
+      <stop offset="75%" stop-color="rgba(255,211,77,0.3)" />
+      <stop offset="90%" stop-color="rgba(255,211,77,0.2)" />
+      <stop offset="100%" stop-color="rgba(255,211,77,0)" />
+    </radialGradient>
+  </defs>
+</svg>

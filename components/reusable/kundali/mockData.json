@@ -1,0 +1,132 @@
+{
+  "status": 200,
+  "data": {
+      "dateOfBirth": "5/17/2001",
+      "timeOfBirth": "11:10 PM",
+      "city": "Giddalur",
+      "state": "Andhra Pradesh",
+      "country": "India",
+      "latitude": 15.3784042,
+      "longitude": 78.9265231,
+      "timezone": 5.5,
+      "siderealAscendant": {
+          "sign": "Capricorn",
+          "degrees": 7,
+          "minutes": 31,
+          "nakshatra": "Uttara Ashadha",
+          "pada": 4
+      },
+      "planets": [
+          {
+              "name": "Sun",
+              "sign": "Taurus",
+              "nakshatra": "Krittika",
+              "degree": 2,
+              "minute": 58,
+              "pada": 2,
+              "status": "[D]"
+          },
+          {
+              "name": "Moon",
+              "sign": "Aquarius",
+              "nakshatra": "Purva Bhadrapada",
+              "degree": 28,
+              "minute": 53,
+              "pada": 3,
+              "status": "[D]"
+          },
+          {
+              "name": "Mercury",
+              "sign": "Taurus",
+              "nakshatra": "Mrigashira",
+              "degree": 25,
+              "minute": 6,
+              "pada": 1,
+              "status": "[D]"
+          },
+          {
+              "name": "Venus",
+              "sign": "Pisces",
+              "nakshatra": "Revati",
+              "degree": 19,
+              "minute": 18,
+              "pada": 1,
+              "status": "[D]"
+          },
+          {
+              "name": "Mars",
+              "sign": "Sagittarius",
+              "nakshatra": "Mula",
+              "degree": 5,
+              "minute": 28,
+              "pada": 2,
+              "status": "[R]"
+          },
+          {
+              "name": "Jupiter",
+              "sign": "Taurus",
+              "nakshatra": "Rohini",
+              "degree": 23,
+              "minute": 15,
+              "pada": 4,
+              "status": "[D]"
+          },
+          {
+              "name": "Saturn",
+              "sign": "Taurus",
+              "nakshatra": "Rohini",
+              "degree": 10,
+              "minute": 20,
+              "pada": 1,
+              "status": "[C] [R]"
+          },
+          {
+              "name": "Uranus",
+              "sign": "Aquarius",
+              "nakshatra": "Dhanishta",
+              "degree": 0,
+              "minute": 53,
+              "pada": 3,
+              "status": "[C]"
+          },
+          {
+              "name": "Neptune",
+              "sign": "Capricorn",
+              "nakshatra": "Shravana",
+              "degree": 14,
+              "minute": 53,
+              "pada": 2,
+              "status": "[D]"
+          },
+          {
+              "name": "Pluto",
+              "sign": "Scorpio",
+              "nakshatra": "Jyeshtha",
+              "degree": 20,
+              "minute": 46,
+              "pada": 2,
+              "status": "[R]"
+          },
+          {
+              "name": "Rahu",
+              "sign": "Gemini",
+              "nakshatra": "Ardra",
+              "degree": 14,
+              "minute": 58,
+              "pada": 3,
+              "status": "[R]"
+          },
+          {
+              "name": "Ketu",
+              "sign": "Sagittarius",
+              "nakshatra": "Purva Ashadha",
+              "degree": 14,
+              "minute": 58,
+              "pada": 1,
+              "status": "[R] [C]"
+          }
+      ]
+  },
+  "message": "Calculation Processed successfully",
+  "error": null
+}

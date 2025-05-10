@@ -1,0 +1,45 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Moon body with subtle glow -->
+  <circle cx="100" cy="100" r="90" fill="url(#moonGlow)" />
+  <circle cx="100" cy="100" r="85" fill="url(#moonGradient)" />
+  
+  <!-- Craters -->
+  <circle cx="65" cy="65" r="15" fill="url(#craterGradient1)" opacity="0.7" />
+  <circle cx="120" cy="50" r="10" fill="url(#craterGradient2)" opacity="0.5" />
+  <circle cx="135" cy="90" r="18" fill="url(#craterGradient1)" opacity="0.6" />
+  <circle cx="85" cy="105" r="22" fill="url(#craterGradient2)" opacity="0.7" />
+  <circle cx="45" cy="115" r="12" fill="url(#craterGradient1)" opacity="0.5" />
+  <circle cx="115" cy="140" r="15" fill="url(#craterGradient2)" opacity="0.6" />
+  
+  <!-- Mare (dark areas) -->
+  <path d="M60,80 Q75,70 100,75 Q120,85 115,100 Q105,120 80,115 Q60,105 60,80 Z" fill="#c1c1c9" opacity="0.8" />
+  <path d="M110,110 Q130,105 140,120 Q135,140 115,135 Q100,125 110,110 Z" fill="#c1c1c9" opacity="0.7" />
+  
+  <!-- Subtle ray patterns from craters -->
+  <path d="M70,70 L55,55 M70,70 L85,55 M70,70 L85,85" stroke="#ffffff" stroke-width="1" opacity="0.3" />
+  <path d="M135,90 L150,80 M135,90 L155,95 M135,90 L150,105" stroke="#ffffff" stroke-width="1" opacity="0.3" />
+  
+  <!-- Definitions for gradients -->
+  <defs>
+    <radialGradient id="moonGradient" cx="40%" cy="40%" r="80%" fx="25%" fy="25%">
+      <stop offset="0%" stop-color="#f7f7f7" />
+      <stop offset="50%" stop-color="#e1e1e6" />
+      <stop offset="100%" stop-color="#d1d1d9" />
+    </radialGradient>
+    
+    <radialGradient id="moonGlow" cx="50%" cy="50%" r="100%">
+      <stop offset="85%" stop-color="rgba(255,255,255,0.6)" />
+      <stop offset="100%" stop-color="rgba(255,255,255,0)" />
+    </radialGradient>
+    
+    <radialGradient id="craterGradient1" cx="35%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#d1d1d9" />
+      <stop offset="100%" stop-color="#b1b1b9" />
+    </radialGradient>
+    
+    <radialGradient id="craterGradient2" cx="35%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#c4c4cc" />
+      <stop offset="100%" stop-color="#a4a4ac" />
+    </radialGradient>
+  </defs>
+</svg>
