@@ -17,6 +17,7 @@ import {
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { LinearGradient } from 'expo-linear-gradient';
+import { BASE_URL } from '../../actions/base_url';
 
 const { width, height } = Dimensions.get('window');
 
@@ -77,13 +78,44 @@ const SignIn = ({ onSubmit, onLogin, loading, onSocialLogin }) => {
     Linking.openURL(url).catch(err => console.error('An error occurred', err));
   };
   
-  const handleSocialLogin = (provider) => {
-    if (onSocialLogin) {
-      onSocialLogin(provider);
-    } else {
-      console.log(`Login with ${provider}`);
+  // const handleSocialLogin = (provider) => {
+  //   if (onSocialLogin) {
+  //     onSocialLogin(provider);
+  //   } else {
+  //     console.log(`Login with ${provider}`);
+  //   }
+  // };
+
+  const handleGoogleLogin = async () => {
+  try {
+    // Step 1: Get auth URL from backend
+    const response = await fetch(`${BASE_URL}/auth/google`);
+    const json = await response.json();
+
+    if (json?.data) {
+      // Step 2: Open browser to authenticate
+      Linking.openURL(json.data);
     }
-  };
+  } catch (err) {
+    console.error("Google Login Error:", err);
+  }
+};
+
+const handleMetaLogin = async () => {
+  try {
+    // Step 1: Get auth URL from backend
+    const response = await fetch(`${BASE_URL}/auth/meta`);
+    const json = await response.json();
+
+    if (json?.data) {
+      // Step 2: Open browser to authenticate
+      Linking.openURL(json.data);
+    }
+  } catch (err) {
+    console.error("Google Login Error:", err);
+  }
+};
+
 
   const toggleLoginMethod = () => {
     setUseOtpForLogin(!useOtpForLogin);
@@ -215,7 +247,7 @@ const SignIn = ({ onSubmit, onLogin, loading, onSocialLogin }) => {
                   {/* Social Login Buttons */}
                   <TouchableOpacity 
                     style={styles.socialButton}
-                    onPress={() => handleSocialLogin('google')}
+                    onPress={() => handleGoogleLogin()}
                   >
                     <View style={styles.socialButtonContent}>
                       <Image 
@@ -226,10 +258,10 @@ const SignIn = ({ onSubmit, onLogin, loading, onSocialLogin }) => {
                       <Text style={styles.socialButtonText}>Continue with Google</Text>
                     </View>
                   </TouchableOpacity>
-                  
+  
                   <TouchableOpacity 
                     style={styles.socialButton}
-                    onPress={() => handleSocialLogin('meta')}
+                    onPress={() => handleMetaLogin()}
                   >
                     <View style={styles.socialButtonContent}>
                       <Image 

@@ -4,6 +4,7 @@ import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import BookConsultation from '../../components/user/consultations/BookConsultation';
 import ConsultationBookingFlow from '../../components/user/consultations/ConsultationBookingFlow';
+import { LinearGradient } from 'expo-linear-gradient';
 
 export default function BookConsultationScreen() {
   const router = useRouter();
@@ -90,6 +91,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#f9f9f9',
+    marginBottom:20
   },
   header: {
     flexDirection: 'row',
@@ -102,6 +104,7 @@ const styles = StyleSheet.create({
   },
   backButton: {
     marginRight: 10,
+    marginTop:40
   },
   headerTitle: {
     fontSize: 18,
@@ -109,6 +112,7 @@ const styles = StyleSheet.create({
     color: '#333',
     flex: 1,
     textAlign: 'center',
+    marginTop:40
   },
   content: {
     flex: 1,

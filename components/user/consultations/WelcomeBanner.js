@@ -53,7 +53,7 @@ const WelcomeBanner = () => {
       <View style={styles.contentContainer}>
         <View style={styles.textContainer}>
           <Text style={styles.heading}>
-            Welcome {userName ? `${userName},` : ''} Schedule Your Personalized Astrology Session
+           Schedule Your Personalized Astrology Session
             {width > 450 ? '\n' : ' '}
             with Karmic Keran
           </Text>

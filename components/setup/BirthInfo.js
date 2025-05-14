@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, TextInput, StyleSheet, TouchableOpacity, FlatList, ActivityIndicator, ScrollView, Dimensions } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import DateTimePicker from '@react-native-community/datetimepicker';
+import { Keyboard, TouchableWithoutFeedback } from 'react-native';
 
 // Primary colors matching other components
 const primaryColor = '#FF7A00';
@@ -147,10 +148,19 @@ const BirthInfo = ({ userData, setUserData, errors }) => {
     }
   };
 
+  // const formatDate = (date) => {
+  //   if (!date) return '';
+  //   return `${date.getDate()}-${date.getMonth() + 1}-${date.getFullYear()}`;
+  // };
+
   const formatDate = (date) => {
-    if (!date) return '';
-    return `${date.getDate()}-${date.getMonth() + 1}-${date.getFullYear()}`;
-  };
+  if (!date) return '';
+  const day = date.getDate().toString().padStart(2, '0'); // ✅ Padded day
+  const month = (date.getMonth() + 1).toString().padStart(2, '0'); // ✅ Padded month
+  const year = date.getFullYear();
+  return `${day}-${month}-${year}`; // ✅ Consistent DD-MM-YYYY
+};
+
 
   const formatTime = (time) => {
     if (!time) return '';
@@ -266,7 +276,7 @@ const BirthInfo = ({ userData, setUserData, errors }) => {
               onChange={onTimeChange}
             />
           )}
-          
+          <TouchableWithoutFeedback onPress={Keyboard.dismiss} accessible={false}>
           <View style={styles.locationContainer}>
             <View style={styles.inputContainer}>
               <View style={styles.iconWrapper}>
@@ -287,6 +297,7 @@ const BirthInfo = ({ userData, setUserData, errors }) => {
             {/* Using position absolute to avoid nesting FlastList inside ScrollView */}
             {renderLocationSuggestions()}
           </View>
+          </TouchableWithoutFeedback>
         </View>
       </View>
     </View>

@@ -462,7 +462,7 @@ const AskQuestionScreen = () => {
                     setShowGenderDropdown(!showGenderDropdown);
                   }}
                 >
-                  <Ionicons name="person-outline" size={20} color="#7765e3" style={styles.locationIcon} />
+                  <Ionicons name="person-outline" size={20} color="#f87400" style={styles.locationIcon} />
                   <Text style={[
                     styles.dateInputText,
                     !gender && styles.placeholderText
@@ -495,7 +495,7 @@ const AskQuestionScreen = () => {
                           {option.label}
                         </Text>
                         {gender === option.id && (
-                          <Ionicons name="checkmark" size={16} color="#7765e3" />
+                          <Ionicons name="checkmark" size={16} color="#f87400" />
                         )}
                       </TouchableOpacity>
                     ))}
@@ -510,7 +510,7 @@ const AskQuestionScreen = () => {
                   style={styles.locationWrapper}
                   onPress={showDatePickerModal}
                 >
-                  <Ionicons name="calendar-outline" size={20} color="#7765e3" style={styles.locationIcon} />
+                  <Ionicons name="calendar-outline" size={20} color="#f87400" style={styles.locationIcon} />
                   <Text style={[
                     styles.dateInputText,
                     !birthDate && styles.placeholderText
@@ -536,7 +536,7 @@ const AskQuestionScreen = () => {
                   <View style={styles.timeFormatContainer}>
                     <Text style={styles.timeFormatText}>24h</Text>
                     <Switch
-                      trackColor={{ false: '#d1d1d1', true: '#7765e3' }}
+                      trackColor={{ false: '#d1d1d1', true: '#f87400' }}
                       thumbColor={'#fff'}
                       onValueChange={() => setIs24HourFormat(!is24HourFormat)}
                       value={is24HourFormat}
@@ -548,7 +548,7 @@ const AskQuestionScreen = () => {
                   style={styles.locationWrapper}
                   onPress={showTimePickerModal}
                 >
-                  <Ionicons name="time-outline" size={20} color="#7765e3" style={styles.locationIcon} />
+                  <Ionicons name="time-outline" size={20} color="#f87400" style={styles.locationIcon} />
                   <Text style={[
                     styles.dateInputText,
                     !birthTime && styles.placeholderText
@@ -585,7 +585,7 @@ const AskQuestionScreen = () => {
                     setTimeout(measureLocationInput, 50);
                   }}
                 >
-                  <Ionicons name="location-outline" size={20} color="#7765e3" style={styles.locationIcon} />
+                  <Ionicons name="location-outline" size={20} color="#f87400" style={styles.locationIcon} />
                   <TextInput
                     style={styles.locationInput}
                     placeholder="City, State, Country"
@@ -682,7 +682,7 @@ const AskQuestionScreen = () => {
         >
           <View style={getModalStyle()}>
             {isLoadingSuggestions ? (
-              <ActivityIndicator size="small" color="#7765e3" style={styles.loader} />
+              <ActivityIndicator size="small" color="#f87400" style={styles.loader} />
             ) : (
               <ScrollView
                 style={styles.suggestionsList}
@@ -695,7 +695,7 @@ const AskQuestionScreen = () => {
                     style={styles.suggestionItem}
                     onPress={() => handleSelectLocation(item)}
                   >
-                    <Ionicons name="location" size={16} color="#7765e3" style={styles.suggestionIcon} />
+                    <Ionicons name="location" size={16} color="#f87400" style={styles.suggestionIcon} />
                     <Text style={styles.suggestionText} numberOfLines={2}>{item.display_name}</Text>
                   </TouchableOpacity>
                 ))}
@@ -758,7 +758,7 @@ const styles = StyleSheet.create({
   stepNumber: {
     fontSize: 16,
     fontWeight: 'bold',
-    color: '#7765E3',
+    color: '#f87400',
   },
   stepTitle: {
     fontSize: 14,
@@ -873,6 +873,7 @@ const styles = StyleSheet.create({
     borderRightColor: '#eee',
     paddingVertical: 12,
     marginRight: 12,
+    color: '#f87400',
   },
   locationInput: {
     flex: 1,
@@ -910,6 +911,7 @@ const styles = StyleSheet.create({
   },
   suggestionIcon: {
     marginRight: 12,
+    color: '#f87400',
   },
   suggestionText: {
     fontSize: 14,
@@ -937,8 +939,8 @@ const styles = StyleSheet.create({
     borderRadius: 8,
   },
   categorySelected: {
-    backgroundColor: '#7765E3',
-    borderColor: '#7765E3',
+    backgroundColor: '#f87400',
+    borderColor: '#f87400',
   },
   categoryText: {
     fontSize: 14,
@@ -955,7 +957,7 @@ const styles = StyleSheet.create({
   },
   submitButton: {
     height: 56,
-    backgroundColor: '#FF4D00',
+    backgroundColor: '#f87400',
     borderRadius: 8,
     justifyContent: 'center',
     alignItems: 'center',
@@ -1024,14 +1026,14 @@ const styles = StyleSheet.create({
     borderBottomColor: '#f0f0f0',
   },
   dropdownItemSelected: {
-    backgroundColor: '#f0e7ff',
+    backgroundColor: '#fff4e5',
   },
   dropdownItemText: {
     fontSize: 16,
     color: '#333',
   },
   dropdownItemTextSelected: {
-    color: '#7765e3',
+    color: '#f87400',
     fontWeight: 'bold',
   },
   labelRow: {

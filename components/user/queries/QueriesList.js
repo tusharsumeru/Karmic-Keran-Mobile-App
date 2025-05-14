@@ -125,7 +125,7 @@ const QueriesList = () => {
         </View>
         <View style={styles.viewDetailsButton}>
           <Text style={styles.viewDetailsText}>View Details</Text>
-          <Ionicons name="chevron-forward" size={16} color="#7765E3" />
+          <Ionicons name="chevron-forward" size={16} color="#f87400" />
         </View>
       </View>
     </TouchableOpacity>
@@ -219,7 +219,7 @@ const QueriesList = () => {
                 <View style={styles.detailSection}>
                   <Text style={styles.detailSectionTitle}>Answer</Text>
                   <View style={styles.pendingAnswerContainer}>
-                    <Ionicons name="time-outline" size={24} color="#FF9800" />
+                    <Ionicons name="time-outline" size={24} color="#f87400" />
                     <Text style={styles.pendingAnswerText}>
                       Your question is being reviewed by our astrologer. You will receive a notification when it's answered.
                     </Text>
@@ -243,7 +243,7 @@ const QueriesList = () => {
   if (isLoading) {
     return (
       <View style={[styles.container, styles.centerContent]}>
-        <ActivityIndicator size="large" color="#7765E3" />
+        <ActivityIndicator size="large" color="#f87400" />
         <Text style={styles.loadingText}>Loading your queries...</Text>
       </View>
     );
@@ -296,6 +296,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#f8f9fa',
+    marginTop: 37,
   },
   centerContent: {
     justifyContent: 'center',
@@ -324,7 +325,7 @@ const styles = StyleSheet.create({
   askButton: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#7765E3',
+    backgroundColor: '#f87400',
     paddingVertical: 8,
     paddingHorizontal: 12,
     borderRadius: 20,
@@ -360,7 +361,7 @@ const styles = StyleSheet.create({
     marginRight: 8,
   },
   queryCategory: {
-    color: '#7765E3',
+    color: '#f87400',
     fontWeight: '600',
     fontSize: 12,
   },
@@ -431,7 +432,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   viewDetailsText: {
-    color: '#7765E3',
+    color: '#f87400',
     fontWeight: '600',
     fontSize: 13,
   },
@@ -455,7 +456,7 @@ const styles = StyleSheet.create({
     marginBottom: 24,
   },
   emptyButton: {
-    backgroundColor: '#7765E3',
+    backgroundColor: '#f87400',
     paddingVertical: 12,
     paddingHorizontal: 24,
     borderRadius: 24,
@@ -512,7 +513,7 @@ const styles = StyleSheet.create({
     alignSelf: 'flex-start',
   },
   categoryTextLarge: {
-    color: '#7765E3',
+    color: '#f87400',
     fontWeight: '600',
     fontSize: 14,
   },
@@ -579,7 +580,7 @@ const styles = StyleSheet.create({
     lineHeight: 20,
   },
   modalCloseButton: {
-    backgroundColor: '#7765E3',
+    backgroundColor: '#f87400',
     paddingVertical: 12,
     borderRadius: 12,
     alignItems: 'center',

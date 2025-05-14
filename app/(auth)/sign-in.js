@@ -181,22 +181,6 @@ export default function SignInScreen() {
       setLoading(false);
     }
   };
-  
-  // Handle social login button clicks
-  const handleSocialLogin = async (provider) => {
-    if (provider === 'google') {
-      try {
-        // Trigger Google OAuth flow
-        await promptAsync();
-      } catch (error) {
-        console.error('Error initiating Google sign-in:', error);
-        Alert.alert('Error', 'Failed to initiate Google sign-in');
-      }
-    } else if (provider === 'meta') {
-      // Placeholder for Meta/Facebook login
-      Alert.alert('Coming Soon', 'Meta login will be available soon!');
-    }
-  };
 
   return (
     <SafeAreaView style={styles.safeArea}>
@@ -208,7 +192,6 @@ export default function SignInScreen() {
         onSubmit={handleEmailCheck} 
         onLogin={handleSignIn}
         loading={loading}
-        onSocialLogin={handleSocialLogin}
       />
     </SafeAreaView>
   );

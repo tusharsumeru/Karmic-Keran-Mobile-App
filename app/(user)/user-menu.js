@@ -202,6 +202,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#333',
     textAlign: 'center',
+    marginTop:40
   },
   scrollView: {
     flex: 1,

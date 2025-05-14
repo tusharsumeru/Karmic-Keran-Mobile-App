@@ -9,7 +9,7 @@
 // export const BASE_URL = "https://backup-api.karmickeran.com/api/v1";
 
 // For local development:
- export const BASE_URL = "http://192.168.1.109:5001/api/v1"; 
+ export const BASE_URL = "https://4cb3-103-66-50-227.ngrok-free.app/api/v1"; 
 
 // Debug API endpoint status
 console.log(`API Endpoint configured: ${BASE_URL}`);

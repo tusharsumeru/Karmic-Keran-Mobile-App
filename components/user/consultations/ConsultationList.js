@@ -748,7 +748,7 @@ const ConsultationList = ({ consultations: initialConsultations, loading, active
       
       {loading ? (
         <View style={styles.loadingContainer}>
-          <ActivityIndicator size="large" color="#7765e3" />
+          <ActivityIndicator size="large" color="#f87400" />
           <Text style={styles.loadingText}>Loading consultations...</Text>
         </View>
       ) : (
@@ -799,8 +799,8 @@ const styles = StyleSheet.create({
     borderRadius: 8,
   },
   activeFilterButton: {
-    backgroundColor: '#7765e3',
-    shadowColor: '#7765e3',
+    backgroundColor: '#f87400',
+    shadowColor: '#f87400',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.2,
     shadowRadius: 3,
@@ -1017,7 +1017,7 @@ const styles = StyleSheet.create({
     lineHeight: 22,
   },
   bookNowButton: {
-    backgroundColor: '#7765e3',
+    backgroundColor: '#f87400',
     paddingVertical: 12,
     paddingHorizontal: 20,
     borderRadius: 8,
@@ -1111,7 +1111,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#7765e3',
+    backgroundColor: '#f87400',
     paddingVertical: 12,
     paddingHorizontal: 10,
     borderRadius: 8,
@@ -1132,7 +1132,7 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   chartButton: {
-    backgroundColor: '#5b42bb',
+    backgroundColor: '#e05d00',
   },
   disabledButton: {
     backgroundColor: '#c5c5c5',
@@ -1155,7 +1155,7 @@ const styles = StyleSheet.create({
     fontSize: 14,
   },
   externalLink: {
-    color: '#7765e3',
+    color: '#f87400',
     fontSize: 14,
     fontWeight: '600',
   },
